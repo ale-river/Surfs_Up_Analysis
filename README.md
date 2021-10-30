@@ -1,4 +1,4 @@
-# **Surfs_Up_Analysis**
+# **Surfs_Up_Analysis** :beach_umbrella:
 
 ## **Overview of Project**
 
@@ -15,10 +15,10 @@ On the other hand, `create_engine()` was used as a function that prepares the da
 The data was plot using Matplotlib to determine weather trends and the statistics of the data. And finally, create a Flask Dependency to create a 
 
 Graph visualization - Weather Trends
-![Plot]()
+![Plot](resources/Presipitation%20for%20each%20day.png)
 
 Dataframe visualization - Main Statistics
-![Statistics]()
+![Statistics](resources/Statistics_presipitation_of_year.png)
 
 Create a Flask route `@app.route()` in order to create a function, in the practice case: `hello_world()` so that we display in the localhost:5000 "Hello World"
 
@@ -32,9 +32,9 @@ Localhost looks like this:
 In the challenge, we deteremined the statistics for June and December.Using Python, Pandas functions and methods, and SQLAlchemy, we filtered the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of June. Then we converted those temperatures to a list, create a DataFrame from the list, and generate the summary statistics.
 
 June Temps - Analysis Results
-![June]()
+![June](resources/June%20Temperature.png)
 
 December Temps - Analysis Results
-![December]()
+![December](resources/December%20Temperature.png)
 
 Based on the `hawaii.sqlite` data, we can state as a high-level summary of results that Standard deviation is 3.25 in June and 3.75 in December, making a 0.5 difference between both seasons. This concludes that the performing weather data for June and December provide results to decide how we would like to build the shop and what areas would make this location attractive to visitors to stop by and have a successful business.
